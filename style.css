@@ -206,11 +206,11 @@ span{
  
 }
 
-.box-content:hover{
+/* .box-content:hover{
    transition-delay:0.25s ;
    
     transform: scale(1.2);
-}
+} */
 
 .box-content p {
     color: #007185;
