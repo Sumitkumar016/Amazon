@@ -1,0 +1,117 @@
+@media  screen and (min-width:200px) and (max-width:575px) {
+    .navbar{
+        flex-wrap: wrap;
+        height: 90px;
+    }
+    .nav-logo,
+    .nav-address, 
+    .nav-signin,
+    .nav-cart
+    {
+        order: 1;       
+        align-items: center;
+        width: 22%;      
+        font-size: 1rem;
+    }
+    .nav-signin p span, .nav-second, .add-first, .add-second{
+        font-size: 0.6rem;
+    }
+    .nav-address p{
+        font-size: 0.75rem;
+    }
+    .nav-address{
+        margin-left: 20px;
+    }
+    .nav-cart i{
+        font-size: 1.2rem;
+    }
+    
+    .nav-search {
+        order: 2;       
+        width: 100%;
+    }
+    .return{ 
+        display: none;
+    }
+    .add-second{
+        margin-left: 3.5px;
+    }
+    .panel-all{
+        font-size: 0.6rem;
+    }
+    .panel-ops p{
+        margin-left: 12px;
+        font-size: 0.45rem;
+    }
+    .panel-ops .panel-p2{
+        display: none;
+    }
+    .panel-deals{
+        font-size: 0.4rem;
+    }
+    .hero-section{
+        height: 150px;
+    }
+    .hero-msg{
+        height: 30px;
+        font-size: 0.4rem;
+        width: 85%;
+        text-align: center;
+    }
+    .box{
+        border: 1px solid black;
+        height: 200px;
+        padding: 8px 0px 10px;
+        flex-basis: 45%;
+        margin-bottom: 6px;
+    }
+    .box-img{
+        height: 140px;
+        margin-top: 0.6rem;
+        margin-bottom: 0.6rem;
+    }
+
+    .box .box-content h2{
+        font-size: 0.735rem;
+    }
+    .box-content{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .box-content a{
+        color: #007185;
+        text-decoration: none;
+    }
+    .foot-panel1{
+        height: 28px;
+    }
+    .foot-panel2{
+        height: 170px;
+        font-size: 0.55rem;
+    }
+    .ftpnl-2{
+        display: none;
+    }
+    .foot-panel3{
+        height: 48px;  
+    }
+    .foot-panel3 .logo{
+        height: 45px;
+        margin-bottom: 10px;
+    } 
+    .foot-panel4{
+        height: 40px;
+        padding: 15px;
+        font-size: 0.65rem;
+        padding-bottom: 5px;
+    }
+    .pages{
+        padding-top: 0;
+    }
+    .pages a{
+        color: #fff;
+    }
+    .copyright{
+        padding-top: 5px;
+    }
+}
